@@ -1,0 +1,172 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#1e2124",
+        "secondaryColor": "#a4532a",
+        "successColor": "#2f5d8a",
+        "infoColor": "#59616a",
+        "warningColor": "#c8cdcb",
+        "dangerColor": "#a4532a",
+        "mainFont": "Instrument Sans",
+        "display1Font": "Archivo",
+        "display1Size": 4.4,
+        "display2Font": "Archivo",
+        "display2Size": 2.4,
+        "display5Font": "Archivo",
+        "display5Size": 1.6,
+        "display7Font": "Instrument Sans",
+        "display7Size": 1.1,
+        "display4Font": "Instrument Sans",
+        "display4Size": 1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "Wavecraft WAARD",
+    "versionFirst": "5.9",
+    "versionPublish": "6.0.5",
+    "siteFonts": [
+      {
+        "css": "'Archivo', sans-serif",
+        "name": "Archivo",
+        "url": "https://fonts.googleapis.com/css?family=Archivo:400,700,800,900"
+      },
+      {
+        "css": "'Instrument Sans', sans-serif",
+        "name": "Instrument Sans",
+        "url": "https://fonts.googleapis.com/css?family=Instrument+Sans:400,500,600"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 9,
+    "screenshot": "assets/images/hero-standing-waves.jpg",
+    "favicon": "assets/images/waard-logo.png",
+    "includeGoogleFonts": true
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Wavecraft WAARD",
+        "meta_descr": "Wavecraft Applied Acoustical Research and Development: electronic appliance design, musical instrument modification, professional musical accessories and room treatment for listening spaces and acoustic perception.",
+        "header_custom": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap\"><style>\n:root{--bg:#eceeec;--surface:#f7f8f6;--ink:#1e2124;--muted:#59616a;--line:#c8cdcb;--copper:#a4532a;--slate:#2f5d8a;--fill:#e2e5e3;\n--fd:\"Archivo\",\"Arial Narrow\",Arial,sans-serif;--fb:\"Instrument Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;--fm:\"JetBrains Mono\",ui-monospace,Menlo,Consolas,monospace}\nbody{background:var(--bg);color:var(--ink);font-family:var(--fb);font-size:1rem;line-height:1.6}\n.waard section{background:var(--bg)}\n.waard h1,.waard h2,.waard h3,.waard .mbr-section-title{font-family:var(--fd);font-stretch:118%;font-weight:850;line-height:1.04;letter-spacing:-.01em;text-wrap:balance;color:var(--ink)}\n.waard .mbr-text{color:var(--muted)}\n.waard a{color:var(--copper)}\n.waard .eyebrow{font:600 .78rem/1 var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--copper);margin-bottom:14px}\n.waard .w-btn{display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:6px;font:600 1rem var(--fb);text-decoration:none;border:1.5px solid var(--ink);color:var(--ink);background:transparent;margin:0 10px 10px 0}\n.waard .w-btn.solid{background:var(--ink);color:var(--bg)}\n.waard .w-btn:focus-visible,.waard a:focus-visible,.waard input:focus-visible{outline:3px solid var(--copper);outline-offset:3px}\n.w-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0}\n.w-nav .name{font:800 1rem/1.1 var(--fd);font-stretch:112%;letter-spacing:.02em;color:var(--ink);text-decoration:none}\n.w-nav nav a{color:var(--muted);text-decoration:none;font-weight:500;margin-left:20px}\n.w-hero{padding:20px 0 30px}\n.w-hero h1{font-size:clamp(2.4rem,6.2vw,4.4rem)}\n.w-hero .lede{font-size:1.2rem;margin:20px 0 26px;max-width:36em}\n.w-hero .logo{width:100%;max-width:340px;height:auto;display:block;margin-left:auto}\n.w-plate{border:1px solid var(--line);border-radius:8px;width:100%;height:auto;display:block;background:var(--surface)}\n.w-wide{padding:0 0 40px}\n.w-sec{padding:64px 0 16px}\n.w-head h2{font-size:clamp(1.9rem,4vw,2.4rem)}\n.w-head p{max-width:40em}\n.w-service{border-top:1.5px solid var(--ink);padding:26px 0 30px}\n.w-service h3{font-size:1.6rem;font-stretch:108%;margin-bottom:10px}\n.w-service .terms{font:400 .82rem/1.8 var(--fm);color:var(--ink);margin-top:12px}\n.w-service .terms span{display:block}\n.w-step{border-top:1.5px solid var(--ink);padding-top:16px;height:100%}\n.w-step .n{font:600 .78rem var(--fm);color:var(--copper)}\n.w-step h3{font-size:1.25rem;margin:4px 0 8px;font-stretch:112%}\n.w-gallery figure{margin:0 0 24px}\n.w-gallery figcaption{font:400 .82rem/1.5 var(--fm);color:var(--muted);margin-top:8px}\n.w-calc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:26px}\n.w-units{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-bottom:14px}\n.w-units label{padding:7px 14px;cursor:pointer;font:600 .85rem var(--fm);color:var(--muted);margin:0}\n.w-units input{position:absolute;opacity:0;pointer-events:none}\n.w-units label:has(input:checked){background:var(--ink);color:var(--bg)}\n.w-field{display:grid;grid-template-columns:1fr 120px;align-items:center;gap:10px;margin-bottom:12px}\n.w-field label{font-weight:500;margin:0}\n.w-field input{width:100%;height:42px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:0 10px;font:600 1rem var(--fm);text-align:right}\n.w-field small{grid-column:1/-1;color:var(--muted);margin-top:-6px;font-size:.82rem}\n.w-legend{display:flex;flex-wrap:wrap;gap:6px 18px;font:400 .8rem var(--fm);color:var(--muted);margin:8px 0 14px}\n.w-legend i{display:inline-block;width:12px;height:3px;vertical-align:middle;margin-right:6px}\n.w-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:14px}\n.w-facts>div{border-top:1.5px solid var(--ink);padding-top:8px;min-width:0}\n.w-facts .v{font:700 1.45rem/1.2 var(--fm);font-variant-numeric:tabular-nums}\n.w-facts .k{font-size:.85rem;color:var(--muted)}\n.w-axial{width:100%;border-collapse:collapse;font:400 .9rem var(--fm);font-variant-numeric:tabular-nums;margin-bottom:14px}\n.w-axial th,.w-axial td{text-align:right;padding:6px 8px;border-bottom:1px solid var(--line)}\n.w-axial th:first-child,.w-axial td:first-child{text-align:left}\n.w-axial th{color:var(--muted);font-weight:400}\n.w-notes{list-style:none;margin:0;padding:0}\n.w-notes li{padding-left:16px;position:relative;margin-bottom:8px;font-size:.95rem}\n.w-notes li::before{content:\"\";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--copper)}\n.w-notes li.ok::before{background:var(--slate)}\n.w-caveat{font-size:.85rem;color:var(--muted)}\n.w-soon{background:var(--fill);border-radius:8px;padding:18px 20px}\n.w-soon b{display:block;font:800 1.2rem var(--fd);font-stretch:112%}\n.w-foot{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:.9rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-top:50px}\n@media (max-width:767px){.w-hero .logo{max-width:200px;margin:0 0 18px}.w-nav nav{display:none}.w-facts{grid-template-columns:1fr 1fr}.w-calc{padding:18px}}\n</style>",
+        "footer_custom": "<script>\n(function () {\n  'use strict';\n  const C = 343;                                   // speed of sound, m/s (about 20 °C)\n  const FT = 0.3048;\n  const $ = (id) => document.getElementById(id);\n  const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();\n  let unit = 'm';\n  let room = { L: 5.2, W: 3.9, H: 2.7, T: 0.4 };\n\n  /* Every mode (nx, ny, nz) below fMax: f = c/2 * sqrt((nx/L)^2 + (ny/W)^2 + (nz/H)^2). */\n  function modes(L, W, H, fMax) {\n    const out = [];\n    for (let x = 0; x <= 30; x++) for (let y = 0; y <= 30; y++) for (let z = 0; z <= 30; z++) {\n      if (!x && !y && !z) continue;\n      const f = C / 2 * Math.sqrt((x / L) ** 2 + (y / W) ** 2 + (z / H) ** 2);\n      if (f > fMax) continue;\n      const k = (x > 0) + (y > 0) + (z > 0);\n      out.push({ f, x, y, z, type: k === 1 ? 'axial' : k === 2 ? 'tangential' : 'oblique' });\n    }\n    return out.sort((a, b) => a.f - b.f);\n  }\n\n  function read() {\n    const v = (id) => { const n = parseFloat(String($(id).value).replace(',', '.')); return Number.isFinite(n) && n > 0 ? n : null; };\n    const k = unit === 'ft' ? FT : 1;\n    const L = v('len'), W = v('wid'), H = v('hei'), T = v('rt');\n    if (!L || !W || !H) return null;\n    return { L: L * k, W: W * k, H: H * k, T: T && T < 10 ? T : 0.4 };\n  }\n\n  function draw() {\n    const r = read(); if (!r) return;\n    room = r;\n    const all = modes(r.L, r.W, r.H, 300);\n    const V = r.L * r.W * r.H;\n    const fs = 2000 * Math.sqrt(r.T / V);                  // Schroeder frequency (Hz)\n    // the spectrum: 20 to 300 Hz on a log axis\n    const svg = $('spec'), W0 = Math.max(330, Math.min(760, Math.round(svg.getBoundingClientRect().width) || 640)), x0 = 34, x1 = W0 - 16, base = 136;   // drawn at its real width so labels stay readable on a phone\n    svg.setAttribute('viewBox', `0 0 ${W0} 170`);\n    const lx = (f) => x0 + (Math.log(f / 20) / Math.log(300 / 20)) * (x1 - x0);\n    const col = { axial: css('--copper'), tangential: css('--slate'), oblique: css('--muted') };\n    const ht = { axial: 104, tangential: 70, oblique: 40 };\n    let s = '';\n    for (const f of [20, 30, 50, 100, 200, 300]) s += `<line x1=\"${lx(f)}\" y1=\"${base}\" x2=\"${lx(f)}\" y2=\"${base + 6}\" stroke=\"${css('--muted')}\" stroke-width=\"1\"/><text x=\"${lx(f)}\" y=\"${base + 22}\" text-anchor=\"middle\" font-family=\"JetBrains Mono, monospace\" font-size=\"12\" fill=\"${css('--muted')}\">${f}</text>`;\n    s += `<line x1=\"${x0}\" y1=\"${base}\" x2=\"${x1}\" y2=\"${base}\" stroke=\"${css('--ink')}\" stroke-width=\"1.5\"/>`;\n    for (const m of all.slice().reverse()) {\n      if (m.f < 20) continue;\n      s += `<line x1=\"${lx(m.f).toFixed(1)}\" y1=\"${base}\" x2=\"${lx(m.f).toFixed(1)}\" y2=\"${base - ht[m.type]}\" stroke=\"${col[m.type]}\" stroke-width=\"${m.type === 'axial' ? 2.4 : 1.3}\"><title>${m.f.toFixed(1)} Hz, ${m.type} (${m.x},${m.y},${m.z})</title></line>`;\n    }\n    if (fs >= 20 && fs <= 300) s += `<line x1=\"${lx(fs)}\" y1=\"${base}\" x2=\"${lx(fs)}\" y2=\"10\" stroke=\"${css('--ink')}\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/><text x=\"${Math.min(lx(fs) + 6, x1 - 4)}\" y=\"20\" text-anchor=\"${lx(fs) > x1 - 90 ? 'end' : 'start'}\" font-family=\"JetBrains Mono, monospace\" font-size=\"12\" fill=\"${css('--ink')}\">${Math.round(fs)} Hz</text>`;\n    s += `<text x=\"${x0 - 6}\" y=\"${base + 22}\" text-anchor=\"end\" font-family=\"JetBrains Mono, monospace\" font-size=\"12\" fill=\"${css('--muted')}\">Hz</text>`;\n    svg.innerHTML = s;\n    // facts\n    $('fFirst').textContent = Math.round(all[0].f) + ' Hz';\n    $('fCount').textContent = String(all.filter((m) => m.f <= 200).length);\n    $('fSch').textContent = Math.round(fs) + ' Hz';\n    // axial table, in the units shown\n    const k = unit === 'ft' ? FT : 1, u = unit === 'ft' ? 'ft' : 'm';\n    const rows = [['Length', r.L], ['Width', r.W], ['Height', r.H]].map(([n, d]) =>\n      `<tr><td>${n} ${(d / k).toFixed(2)} ${u}</td>${[1, 2, 3].map((i) => `<td>${(i * C / (2 * d)).toFixed(1)}</td>`).join('')}</tr>`).join('');\n    $('axialRows').innerHTML = rows;\n    // what stands out: axial modes stacked within 5%, and the biggest gap below the Schroeder frequency\n    const ax = all.filter((m) => m.type === 'axial');\n    const notes = [];\n    const stacks = [];\n    for (let i = 0; i < ax.length; i++) for (let j = i + 1; j < ax.length; j++) {\n      const a = ax[i], b = ax[j];\n      const sameAxis = (a.x > 0) === (b.x > 0) && (a.y > 0) === (b.y > 0);\n      if (!sameAxis && Math.abs(a.f - b.f) / a.f < 0.05 && a.f < Math.max(fs, 120)) stacks.push([a, b]);\n    }\n    if (stacks.length) {\n      const [a, b] = stacks[0];\n      notes.push(`<li>Two axial modes land together near <b>${Math.round((a.f + b.f) / 2)} Hz</b>. Notes around there will boom. Rooms whose dimensions are simple multiples of each other do this most.</li>`);\n    } else notes.push('<li class=\"ok\">No two axial modes from different walls stack within 5% of each other. A good start.</li>');\n    const low = ax.filter((m) => m.f <= Math.max(fs, 80));\n    let gap = null; for (let i = 1; i < low.length; i++) { const g = low[i].f - low[i - 1].f; if (!gap || g > gap.g) gap = { g, a: low[i - 1].f, b: low[i].f }; }\n    if (gap && gap.g > 20) notes.push(`<li>No axial mode between <b>${Math.round(gap.a)}</b> and <b>${Math.round(gap.b)} Hz</b>. Bass notes there can sound thin.</li>`);\n    notes.push(`<li class=\"ok\">Above about <b>${Math.round(fs)} Hz</b> the modes blur together and the room's reverb takes over. Below it, placement of speakers, seats and bass traps matters most.</li>`);\n    $('notes').innerHTML = notes.join('');\n    // the strip above\n    const f1 = C / (2 * r.L);\n    if ($('waveKey')) $('waveKey').innerHTML = `Room length <b>${(r.L / k).toFixed(2)} ${u}</b><br>Axial modes <b>${[1, 2, 3].map((i) => Math.round(i * f1)).join(' · ')} Hz</b>`;\n  }\n\n  for (const id of ['len', 'wid', 'hei', 'rt']) $(id).addEventListener('input', draw);\n  document.querySelectorAll('input[name=\"unit\"]').forEach((el) => el.addEventListener('change', () => { const was = unit; unit = el.value; const f = was === 'm' && unit === 'ft' ? 1 / FT : was === 'ft' && unit === 'm' ? FT : 1; for (const id of ['len', 'wid', 'hei']) { const n = parseFloat($(id).value); if (Number.isFinite(n)) $(id).value = (n * f).toFixed(2); } draw(); }));\n  $('roomForm').addEventListener('submit', (e) => { e.preventDefault(); draw(); });\n  window.addEventListener('resize', draw);\n  draw();\n})();\n</script>",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {},
+          "_name": "header1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"waard cid-hero\" id=\"hero\"><div class=\"container\">\n<div class=\"w-nav\"><a class=\"name\" href=\"#hero\">WAVECRAFT · WAARD</a><nav aria-label=\"Sections\"><a href=\"#services\">Services</a><a href=\"#process\">Process</a><a href=\"#modes\">Room modes</a><a href=\"#contact\">Contact</a></nav></div>\n<div class=\"row align-items-center w-hero\">\n  <div class=\"col-12 col-lg-8 order-2 order-lg-1\">\n    <p class=\"eyebrow mbr-fonts-style\">Applied acoustical research and development</p>\n    <h1 class=\"mbr-section-title mbr-fonts-style display-1\">Instruments, electronics and rooms, engineered as one sound.</h1>\n    <p class=\"mbr-text mbr-fonts-style lede display-7\">Wavecraft designs audio electronics, modifies musical instruments, builds professional accessories for working musicians, and treats rooms so that what you hear is what was played.</p>\n    <div class=\"mbr-section-btn\"><a class=\"w-btn solid\" href=\"#contact\">Start a project</a><a class=\"w-btn\" href=\"#modes\">Check your room</a></div>\n  </div>\n  <div class=\"col-12 col-lg-4 order-1 order-lg-2\"><div class=\"image-wrapper\"><img class=\"logo\" src=\"@PROJECT_PATH@/assets/images/waard-logo.png\" alt=\"WAARD: Wavecraft Applied Acoustical Research and Development\" loading=\"lazy\"></div></div>\n</div></div></section>",
+          "_cid": "hero",
+          "_anchor": "hero",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {},
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"waard cid-waves\" id=\"waves\"><div class=\"container\"><div class=\"w-wide\"><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/hero-standing-waves.jpg\" alt=\"The first three standing waves between two walls 5.2 metres apart: 33, 66 and 99 Hz\" loading=\"lazy\"></div></div></div></section>",
+          "_cid": "waves",
+          "_anchor": "waves",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {},
+          "_name": "features1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"waard cid-services\" id=\"services\"><div class=\"container\">\n<div class=\"w-sec\"><div class=\"row w-head mb-4\"><div class=\"col-12 col-lg-5\"><h2 class=\"mbr-section-title mbr-fonts-style display-2\">What we design</h2></div>\n<div class=\"col-12 col-lg-7\"><p class=\"mbr-text mbr-fonts-style display-7\">Five kinds of work, one discipline underneath: measure the sound, decide what should change, and build the thing that changes it.</p></div></div>\n<div class=\"row w-service\">\n  <div class=\"col-12 col-md-5 mb-3 mb-md-0\"><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/electronics-board.jpg\" alt=\"Schematic of a non-inverting op-amp gain stage\" loading=\"lazy\"></div></div>\n  <div class=\"col-12 col-md-7\"><h3 class=\"mbr-section-title mbr-fonts-style display-5\">Electronic appliance design</h3><p class=\"mbr-text mbr-fonts-style display-7\">Circuits, prototypes and enclosures for audio devices: amplifiers, preamps, signal processors and the practice tools musicians carry every day.</p><div class=\"terms\"><span>Schematics and PCB layout</span><span>Prototype builds</span><span>Bench measurement</span></div></div>\n</div>\n<div class=\"row w-service\">\n  <div class=\"col-12 col-md-5 mb-3 mb-md-0\"><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/instrument-bell.jpg\" alt=\"Cross-section of a brass bell flare with a mount position marked\" loading=\"lazy\"></div></div>\n  <div class=\"col-12 col-md-7\"><h3 class=\"mbr-section-title mbr-fonts-style display-5\">Musical instrument modification</h3><p class=\"mbr-text mbr-fonts-style display-7\">Changes that help an instrument play, sound or record better for the person holding it: hardware, mounts, pickups and electronics fitted to the instrument.</p><div class=\"terms\"><span>Brass, woodwind, strings</span><span>Mounts and pickups</span><span>Reversible where possible</span></div></div>\n</div>\n<div class=\"row w-service\">\n  <div class=\"col-12 col-md-5 mb-3 mb-md-0\"><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/accessory-mouthpiece.jpg\" alt=\"Cross-section of a brass mouthpiece: rim, cup, throat, backbore and shank\" loading=\"lazy\"></div></div>\n  <div class=\"col-12 col-md-7\"><h3 class=\"mbr-section-title mbr-fonts-style display-5\">Professional musical accessories</h3><p class=\"mbr-text mbr-fonts-style display-7\">Accessories designed for working musicians: the mounts, stands, cases and small parts that have to hold up on every gig.</p><div class=\"terms\"><span>Design for daily use</span><span>Prototypes to production</span><span>Built around the player</span></div></div>\n</div>\n<div class=\"row w-service\">\n  <div class=\"col-12 col-md-5 mb-3 mb-md-0\"><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/room-listening-plan.jpg\" alt=\"Plan of a listening room with speakers, listener and absorber panels at the first-reflection points\" loading=\"lazy\"></div></div>\n  <div class=\"col-12 col-md-7\"><h3 class=\"mbr-section-title mbr-fonts-style display-5\">Room treatment for listening spaces</h3><p class=\"mbr-text mbr-fonts-style display-7\">Studios, control rooms, practice rooms and home listening rooms. Absorption, diffusion and bass trapping placed from measurements, so the room stops colouring the music.</p><div class=\"terms\"><span>Reverberation time (RT60)</span><span>Room modes and bass</span><span>First reflections</span></div></div>\n</div>\n<div class=\"row w-service\">\n  <div class=\"col-12 col-md-5 mb-3 mb-md-0\"><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/room-rehearsal.jpg\" alt=\"Section of a rehearsal room with an overhead reflector sending early reflections to the players\" loading=\"lazy\"></div></div>\n  <div class=\"col-12 col-md-7\"><h3 class=\"mbr-section-title mbr-fonts-style display-5\">Room treatment for acoustic perception</h3><p class=\"mbr-text mbr-fonts-style display-7\">Rooms shaped for how musicians hear themselves and each other: rehearsal rooms, teaching studios and stages, where balance and clarity matter more than silence.</p><div class=\"terms\"><span>Early reflections</span><span>Clarity and support</span><span>Hearing the ensemble</span></div></div>\n</div></div></div></section>",
+          "_cid": "services",
+          "_anchor": "services",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {},
+          "_name": "features3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"waard cid-process\" id=\"process\"><div class=\"container\">\n<div class=\"w-sec\"><div class=\"row w-head mb-4\"><div class=\"col-12 col-lg-5\"><h2 class=\"mbr-section-title mbr-fonts-style display-2\">How a project runs</h2></div>\n<div class=\"col-12 col-lg-7\"><p class=\"mbr-text mbr-fonts-style display-7\">Every project follows the same order, from a device on the bench to a whole room.</p></div></div>\n<div class=\"row\"><div class=\"col-12 col-sm-6 col-lg-3 mb-4\"><div class=\"w-step\"><span class=\"n\">1</span><h3 class=\"mbr-fonts-style display-7\">Measure</h3><p class=\"mbr-text mbr-fonts-style display-7\">Listen and measure first: the room, the instrument or the signal as it is today.</p></div></div><div class=\"col-12 col-sm-6 col-lg-3 mb-4\"><div class=\"w-step\"><span class=\"n\">2</span><h3 class=\"mbr-fonts-style display-7\">Model</h3><p class=\"mbr-text mbr-fonts-style display-7\">Work out what has to change and predict the result before anything is built.</p></div></div><div class=\"col-12 col-sm-6 col-lg-3 mb-4\"><div class=\"w-step\"><span class=\"n\">3</span><h3 class=\"mbr-fonts-style display-7\">Build</h3><p class=\"mbr-text mbr-fonts-style display-7\">Design and make the circuit, the part, the modification or the treatment.</p></div></div><div class=\"col-12 col-sm-6 col-lg-3 mb-4\"><div class=\"w-step\"><span class=\"n\">4</span><h3 class=\"mbr-fonts-style display-7\">Verify</h3><p class=\"mbr-text mbr-fonts-style display-7\">Measure again and listen again, and adjust until the numbers and the ears agree.</p></div></div></div>\n<div class=\"row\"><div class=\"col-12 col-md-6 mb-4\"><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/measure-sweep.jpg\" alt=\"Exponential sine sweep, the measurement signal\" loading=\"lazy\"></div></div><div class=\"col-12 col-md-6 mb-4\"><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/model-room-modes.jpg\" alt=\"Modelled room modes from 20 to 300 Hz\" loading=\"lazy\"></div></div></div></div></div></section>",
+          "_cid": "process",
+          "_anchor": "process",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {},
+          "_name": "content1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"waard cid-modes\" id=\"modes\"><div class=\"container\">\n<div class=\"w-sec\"><div class=\"row w-head mb-4\"><div class=\"col-12 col-lg-5\"><h2 class=\"mbr-section-title mbr-fonts-style display-2\">Check your room's low end</h2></div>\n<div class=\"col-12 col-lg-7\"><p class=\"mbr-text mbr-fonts-style display-7\">Every rectangular room rings at frequencies set by its length, width and height. Where several land close together, a note booms; where none land, it thins out. Enter a room and see where its modes fall.</p></div></div>\n<div class=\"w-calc\"><div class=\"row\">\n<div class=\"col-12 col-lg-5 mb-4\"><form id=\"roomForm\" novalidate>\n<div class=\"w-units\" role=\"radiogroup\" aria-label=\"Units\"><label><input type=\"radio\" name=\"unit\" id=\"unitM\" value=\"m\" checked><span>metres</span></label><label><input type=\"radio\" name=\"unit\" id=\"unitFt\" value=\"ft\"><span>feet</span></label></div>\n<div class=\"w-field\"><label for=\"len\">Length</label><input id=\"len\" inputmode=\"decimal\" value=\"5.2\"></div>\n<div class=\"w-field\"><label for=\"wid\">Width</label><input id=\"wid\" inputmode=\"decimal\" value=\"3.9\"></div>\n<div class=\"w-field\"><label for=\"hei\">Height</label><input id=\"hei\" inputmode=\"decimal\" value=\"2.7\"></div>\n<div class=\"w-field\"><label for=\"rt\">Reverb time (RT60)</label><input id=\"rt\" inputmode=\"decimal\" value=\"0.4\"><small>Seconds. A furnished living room is often 0.4 to 0.6.</small></div>\n<p class=\"w-caveat\">An estimate for a rectangular room with rigid walls, speed of sound 343 m/s. A real room needs measuring.</p></form></div>\n<div class=\"col-12 col-lg-7\" aria-live=\"polite\">\n<svg id=\"spec\" viewBox=\"0 0 640 170\" style=\"width:100%;height:auto;display:block\" role=\"img\" aria-label=\"Room modes from 20 to 300 hertz\"></svg>\n<div class=\"w-legend\"><span><i style=\"background:#a4532a\"></i>axial (strongest)</span><span><i style=\"background:#2f5d8a\"></i>tangential</span><span><i style=\"background:#59616a\"></i>oblique</span><span><i style=\"background:#1e2124;width:2px;height:12px\"></i>Schroeder frequency</span></div>\n<div class=\"w-facts\"><div><div class=\"v\" id=\"fFirst\">33 Hz</div><div class=\"k\">Lowest mode</div></div><div><div class=\"v\" id=\"fCount\">0</div><div class=\"k\">Modes below 200 Hz</div></div><div><div class=\"v\" id=\"fSch\">0 Hz</div><div class=\"k\">Modes give way to reverb above</div></div></div>\n<div style=\"overflow-x:auto\"><table class=\"w-axial\"><thead><tr><th>Axial modes</th><th>1st</th><th>2nd</th><th>3rd</th></tr></thead><tbody id=\"axialRows\"></tbody></table></div>\n<ul class=\"w-notes\" id=\"notes\"></ul></div></div></div></div></div></section>",
+          "_cid": "modes",
+          "_anchor": "modes",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {},
+          "_name": "gallery1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"waard cid-drawings\" id=\"drawings\"><div class=\"container\">\n<div class=\"w-sec w-gallery\"><div class=\"row w-head mb-4\"><div class=\"col-12 col-lg-5\"><h2 class=\"mbr-section-title mbr-fonts-style display-2\">From the drawing board</h2></div>\n<div class=\"col-12 col-lg-7\"><p class=\"mbr-text mbr-fonts-style display-7\">Every project starts as a drawing. These show the physics behind the work.</p></div></div><div class=\"row\"><div class=\"col-12 col-md-6\"><figure><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/electronics-board.jpg\" alt=\"Circuit board layout with copper traces around an IC\" loading=\"lazy\"></div><figcaption class=\"mbr-fonts-style\">From schematic to copper: a two-layer board.</figcaption></figure></div><div class=\"col-12 col-md-6\"><figure><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/accessory-mount.jpg\" alt=\"Exploded view of a tube clamp mount\" loading=\"lazy\"></div><figcaption class=\"mbr-fonts-style\">A tube clamp mount, exploded: liner, band, bracket, thumb screw.</figcaption></figure></div><div class=\"col-12 col-md-6\"><figure><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/room-diffuser.jpg\" alt=\"Quadratic-residue diffuser with wells of depth n squared mod 7\" loading=\"lazy\"></div><figcaption class=\"mbr-fonts-style\">A quadratic-residue diffuser, N = 7.</figcaption></figure></div><div class=\"col-12 col-md-6\"><figure><div class=\"image-wrapper\"><img class=\"w-plate\" src=\"@PROJECT_PATH@/assets/images/room-absorber.jpg\" alt=\"Porous absorber placed a quarter wavelength from a wall\" loading=\"lazy\"></div><figcaption class=\"mbr-fonts-style\">A porous absorber works where the air moves most.</figcaption></figure></div></div></div></div></section>",
+          "_cid": "drawings",
+          "_anchor": "drawings",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {},
+          "_name": "contacts1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"waard cid-contact\" id=\"contact\"><div class=\"container\">\n<div class=\"w-sec\"><div class=\"row\" style=\"border-top:1.5px solid var(--ink);padding-top:26px\">\n<div class=\"col-12 col-lg-6 mb-4\"><h2 class=\"mbr-section-title mbr-fonts-style display-2\">Start a project</h2>\n<p class=\"mbr-text mbr-fonts-style display-7\" style=\"margin-top:14px\">Tell us what you want to change. It helps to include:</p>\n<ul class=\"mbr-text mbr-fonts-style display-7\"><li>The instrument, device or room, with photos</li><li>For a room: its size and what it is used for</li><li>What you hear now, and what you want to hear</li></ul></div>\n<div class=\"col-12 col-lg-6\"><div class=\"w-soon\"><b>Contact details are on the way</b><p class=\"mbr-text mbr-fonts-style display-7\">Our email address and studio details will be published here shortly.</p></div></div></div></div></div></section>",
+          "_cid": "contact",
+          "_anchor": "contact",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {},
+          "_name": "footer1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"waard cid-footer\" id=\"footer\"><div class=\"container\"><div class=\"w-foot\"><span class=\"mbr-text mbr-fonts-style\">© 2026 Wavecraft Applied Acoustical Research and Development</span><span style=\"font-family:var(--fm)\">WAARD</span></div></div></section>",
+          "_cid": "footer",
+          "_anchor": "footer",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
