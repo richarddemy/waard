@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" role="img" aria-label="Illustrative music practice interface wireframe with note lanes, feedback buttons, and practice controls">
+<defs><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0 H0 V22" stroke="#255669" stroke-width=".6" fill="none"/></pattern></defs>
+<rect width="1100" height="720" fill="#0b2637"/><rect width="1100" height="720" fill="url(#grid)" opacity=".65"/>
+<g font-family="monospace" font-size="15" letter-spacing="2" fill="#9db8c0"><text x="58" y="57">INTERACTION STUDY / MUSIC PRACTICE</text><text x="946" y="57">FIG. 03</text></g>
+<g stroke="#70c6d4" fill="#102f42" stroke-width="2"><rect x="55" y="95" width="990" height="530" rx="14"/><rect x="83" y="132" width="934" height="57" rx="5" fill="#12394b"/><rect x="83" y="209" width="934" height="273" rx="5" fill="#081e2b"/><rect x="83" y="504" width="275" height="88" rx="5"/><rect x="378" y="504" width="203" height="88" rx="5"/><rect x="601" y="504" width="203" height="88" rx="5"/><rect x="824" y="504" width="193" height="88" rx="5"/>
+</g>
+<g fill="#bddbe1" font-family="sans-serif"><text x="112" y="169" font-size="21" font-weight="bold">PRACTICE SESSION</text><text x="820" y="167" font-size="16">Play · Listen · Respond</text></g>
+<g stroke="#376a7b" stroke-width="1"><path d="M145 246 H985 M145 290 H985 M145 334 H985 M145 378 H985 M145 422 H985"/><path d="M210 220 V464 M360 220 V464 M510 220 V464 M660 220 V464 M810 220 V464 M960 220 V464" stroke-dasharray="5 8"/></g>
+<g fill="#81dce5"><rect x="237" y="338" width="119" height="22" rx="3"/><rect x="362" y="293" width="82" height="22" rx="3"/><rect x="453" y="246" width="151" height="22" rx="3"/><rect x="609" y="292" width="101" height="22" rx="3"/><rect x="713" y="380" width="135" height="22" rx="3"/><rect x="852" y="335" width="93" height="22" rx="3"/></g>
+<g fill="#e3b67c"><circle cx="189" cy="439" r="9"/><path d="M189 439 H950" stroke="#e3b67c" stroke-width="1.5" stroke-dasharray="3 9"/></g>
+<g font-family="monospace" fill="#c3d7df" text-anchor="middle"><text x="220" y="540" font-size="14">PLAY AGAIN</text><text x="220" y="570" font-size="20">↻</text><text x="478" y="554" font-size="15">TOO HARD</text><text x="700" y="554" font-size="15">TOO EASY</text><text x="920" y="554" font-size="15">NEXT →</text></g>
+<text x="59" y="668" font-family="monospace" font-size="15" fill="#8daab7">ILLUSTRATIVE WIREFRAME · NOT A METGNOME SCREENSHOT</text>
+</svg>
